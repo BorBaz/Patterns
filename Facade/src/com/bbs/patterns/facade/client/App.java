@@ -7,11 +7,11 @@ import java.time.LocalDateTime;
 public class App {
     public static void main(String[] args) {
 
-        BookingFacade caseOfAWomanSearchingSomeHolidaysInEurope = new BookingFacade();
+        var caseOfAWomanSearchingSomeHolidaysInEurope = new BookingFacade();
         caseOfAWomanSearchingSomeHolidaysInEurope.book(LocalDateTime.now(), LocalDateTime.now(), "Madrid", "Berlin");
 
-        BookingFacade caseOfAManSearchingSomeHolidaysInAmericae = new BookingFacade();
-        caseOfAWomanSearchingSomeHolidaysInEurope.book(LocalDateTime.now(), LocalDateTime.now(), "Mexico", "Canada");
+        var caseOfAManSearchingSomeHolidaysInAmerica = new BookingFacade();
+        caseOfAManSearchingSomeHolidaysInAmerica.book(LocalDateTime.now(), LocalDateTime.now(), "Mexico", "Canada");
 
     }
 }
