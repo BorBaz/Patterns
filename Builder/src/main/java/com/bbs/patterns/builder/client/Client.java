@@ -9,10 +9,10 @@ import com.bbs.patterns.builder.product.Manual;
 public class Client {
 
     public static void main(String[] args) {
-
+        makeCar();
     }
 
-    public void makeCar() {
+    public static void makeCar() {
 
         var director = new Director();
         CarBuilder carBuilder = new CarBuilder();
