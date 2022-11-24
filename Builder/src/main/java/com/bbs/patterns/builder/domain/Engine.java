@@ -1,5 +1,8 @@
 package com.bbs.patterns.builder.domain;
 
-public abstract class Engine {
+import lombok.Data;
 
+@Data
+public  class Engine {
+    private int cc;
 }
