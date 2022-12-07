@@ -21,6 +21,7 @@ public class AppConfigurator {
         }
 
         App app = new App(factory);
+        app.obtaCoffeTable();
         // Esto es un ejemplo de como configurar un cliente
     }
 

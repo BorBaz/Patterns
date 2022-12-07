@@ -5,6 +5,8 @@ import com.bbs.patterns.factory.creator.impl.WindowsDialog;
 
 public class App {
 
+    private static final String WEB = "web";
+
     public static void main(String[] args) {
 
         var config = readConfig();
@@ -22,6 +24,6 @@ public class App {
     }
 
     private static String readConfig() {
-        return "Web";
+        return WEB;
     }
 }

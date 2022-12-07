@@ -23,6 +23,9 @@ public class Client {
         director.constructSportsCar(manualBuilder);
         Manual manual = manualBuilder.getProduct();
 
+        System.out.println(car);
+        System.out.println(manual);
+
         /*
         Lo interesante de esto es que se usa el mismo director para construir dos objetos diferentes pero con las mismas
         propiedades en comun
